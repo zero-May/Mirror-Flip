@@ -47,9 +47,9 @@ The app will appear in the side panel.
 This project uses react to implement image upload, image horizontal flip, image vertical flip, transparency adjustment and image export.
 
 ## Approach explanation
-1. Use <FileInput/> component to upload images.
+1. Use `<FileInput/>` component to upload images.
 2. Use `canvas` to draw images and flip them horizontally and vertically.
-3. Use <Slider/> component to adjust the range of the transparency.
+3. Use `<Slider/>` component to adjust the range of the transparency.
 3. Use `addElementAtPoint` API to add the images to the design.
 4. Use `requestExport` API to export the design.
 5. Use components such as `Rows, Columns, Buttons`, etc. for layout.
