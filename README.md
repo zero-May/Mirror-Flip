@@ -1,5 +1,5 @@
 ## Video demonstration
-
+https://github.com/user-attachments/assets/48695e40-d8a4-4a82-a55a-2421d32b11cd
 
 **Note:** This code and documentation assumes some experience with TypeScript and React.
 
@@ -15,7 +15,7 @@
 npm install
 ```
 
-## Running your Canva App
+## Setup instructions
 
 ### Step 1: Start the local development server
 
@@ -42,6 +42,19 @@ To preview an app:
 5. Click **Open**. (This screen only appears when using an app for the first time.)
 
 The app will appear in the side panel.
+
+## Project introduction
+This project uses react to implement image upload, image horizontal flip, image vertical flip, transparency adjustment and image export.
+
+## Approach explanation
+1. Use <FileInput/> component to upload images.
+2. Use `canvas` to draw images and flip them horizontally and vertically.
+3. Use <Slider/> component to adjust the range of the transparency.
+3. Use `addElementAtPoint` API to add the images to the design.
+4. Use `requestExport` API to export the design.
+5. Use components such as `Rows, Columns, Buttons`, etc. for layout.
+
+
 
 
 
