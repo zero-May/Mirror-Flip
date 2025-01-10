@@ -5,8 +5,8 @@ https://github.com/user-attachments/assets/48695e40-d8a4-4a82-a55a-2421d32b11cd
 
 ## Requirements
 
-- Node.js `v20.10.0`
-- npm `v10`
+- Node.js `v20.18.1`
+- npm `v10.8.2`
 
 
 ## Quick start
